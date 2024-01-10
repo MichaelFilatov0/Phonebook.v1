@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RemoveContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-10T15:33:57" hostname="MacBook-Pro-Mihail-2.local" time="48.378">
+  <properties/>
+  <testcase name="removeAllContacts" classname="tests.RemoveContactTests" time="48.378"/>
+  <system-out><![CDATA[hello
+hello
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
