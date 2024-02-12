@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16c4c491-bee5-475c-807a-93c98bf5e7f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/log-240129Qa121642.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DataProviderContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DataProviderUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/ListenerWD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/scoup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/AddNewContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/AddNewContactTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RemoveContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/RemoveContactTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.RemoveContactTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.RemoveContactTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RemoveContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RemoveContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1467.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1470.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1472.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1475.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1477.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1480.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1482.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1483.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1753.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1754.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1756.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1758.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1981.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1985.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1987.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1988.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1990.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1992.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1993.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1995.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-1996.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-3426.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-3450.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-481.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-631.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-634.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-636.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-637.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-639.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-641.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-642.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-644.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-647.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen-997.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screen.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2alfaY9YNIcmVcQUWop5Rv34QIS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mihailfilatov/Documents/GitHub/Phonebook.v1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.quicklists&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AddNewContactTests.addContactSuccessAllFields">
+    <configuration name="AddNewContactTests.addContactSuccessAllFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.AddNewContactTests.addContactSuccessAllFields&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddNewContactTests.addContactSuccessRequiredFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.AddNewContactTests.addContactSuccessRequiredFields&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveContactTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RemoveContactTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveContactTests.removeAllContacts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RemoveContactTests.removeAllContacts&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveContactTests.removeOneContact" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RemoveContactTests.removeOneContact&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Phonebook.v1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Phonebook.v1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AddNewContactTests.addContactSuccessAllFields" />
+        <item itemvalue="Gradle.RemoveContactTests.removeAllContacts" />
+        <item itemvalue="Gradle.AddNewContactTests.addContactSuccessRequiredFields" />
+        <item itemvalue="Gradle.RemoveContactTests" />
+        <item itemvalue="Gradle.RemoveContactTests.removeOneContact" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16c4c491-bee5-475c-807a-93c98bf5e7f4" name="Changes" comment="" />
+      <created>1704898149640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704898149640</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,71 @@
+12:16:45.572 INFO  manager.ApplicationManager - All tests rus in Chrome Browser
+12:16:46.975 INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+12:16:47.012 INFO  manager.ListenerWD - Before find element: By.xpath: //button[text()='Sign Out']
+12:16:52.090 INFO  manager.ListenerWD - element found success: By.xpath: //button[text()='Sign Out']
+12:16:52.091 INFO  manager.ListenerWD - Before find element: By.cssSelector: a[href='/login']
+12:16:52.122 INFO  manager.ListenerWD - element found success: By.cssSelector: a[href='/login']
+12:16:52.134 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: a[href='/login']]
+12:16:52.247 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: a[href='/login']]
+12:16:52.248 INFO  manager.HelperBase - Open form by click button with locator By.cssSelector("a[href='/login']
+12:16:52.248 INFO  manager.ListenerWD - Before find element: By.name: email
+12:16:52.284 INFO  manager.ListenerWD - element found success: By.name: email
+12:16:52.286 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> name: email]
+12:16:52.418 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> name: email]
+12:16:52.832 INFO  manager.ListenerWD - Before find element: By.xpath: //input[last()]
+12:16:52.872 INFO  manager.ListenerWD - element found success: By.xpath: //input[last()]
+12:16:52.873 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> xpath: //input[last()]]
+12:16:52.972 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> xpath: //input[last()]]
+12:16:53.387 INFO  manager.ListenerWD - Before find element: By.xpath: //button[text()='Login']
+12:16:53.415 INFO  manager.ListenerWD - element found success: By.xpath: //button[text()='Login']
+12:16:53.416 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> xpath: //button[text()='Login']]
+12:16:53.512 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> xpath: //button[text()='Login']]
+12:16:53.537 INFO  tests.TestBase - Name of method ---> addContactSuccessRequiredFields
+12:16:53.543 INFO  tests.TestBase - Tests run with data: --->Contact(name=TonyReq1013, lastName=Stark, email=stark1013@gmail.com, address=NY, phone=356594461013, description=null)
+12:16:53.544 INFO  manager.ListenerWD - Before find element: By.cssSelector: a[href='/add']
+12:16:55.452 INFO  manager.ListenerWD - element found success: By.cssSelector: a[href='/add']
+12:16:55.453 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: a[href='/add']]
+12:16:55.589 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: a[href='/add']]
+12:16:55.589 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='Name']
+12:16:55.641 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='Name']
+12:16:55.641 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Name']]
+12:16:55.771 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Name']]
+12:16:56.148 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='Last Name']
+12:16:56.190 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='Last Name']
+12:16:56.191 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Last Name']]
+12:16:56.271 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Last Name']]
+12:16:56.559 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='Phone']
+12:16:56.588 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='Phone']
+12:16:56.589 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Phone']]
+12:16:56.679 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Phone']]
+12:16:56.984 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='email']
+12:16:57.020 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='email']
+12:16:57.020 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='email']]
+12:16:57.103 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='email']]
+12:16:57.454 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='Address']
+12:16:57.476 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='Address']
+12:16:57.476 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Address']]
+12:16:57.588 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='Address']]
+12:16:57.917 INFO  manager.ListenerWD - Before find element: By.cssSelector: [placeholder='description']
+12:16:57.959 INFO  manager.ListenerWD - element found success: By.cssSelector: [placeholder='description']
+12:16:57.959 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='description']]
+12:16:58.066 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: [placeholder='description']]
+12:16:58.312 INFO  manager.ListenerWD - Before find element: By.cssSelector: .add_form__2rsm2>button
+12:16:58.342 INFO  manager.ListenerWD - element found success: By.cssSelector: .add_form__2rsm2>button
+12:16:58.342 INFO  manager.ListenerWD - start method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: .add_form__2rsm2>button]
+12:16:58.444 INFO  manager.ListenerWD - done method click on element[[ChromeDriver: chrome on WINDOWS (a0d16a7601e89c8804f203c7f150c6e8)] -> css selector: .add_form__2rsm2>button]
+12:16:58.445 INFO  manager.ListenerWD - Before find element: By.cssSelector: h2
+12:17:00.118 INFO  manager.ListenerWD - element found success: By.cssSelector: h2
+12:17:00.152 INFO  manager.ListenerWD - get text from the element with text: TonyReq86
+12:17:00.173 INFO  manager.ListenerWD - got the text successful
+12:17:00.193 INFO  manager.ListenerWD - get text from the element with text: TonyReq574
+12:17:00.211 INFO  manager.ListenerWD - got the text successful
+12:17:00.234 INFO  manager.ListenerWD - get text from the element with text: TonyReq1013
+12:17:00.256 INFO  manager.ListenerWD - got the text successful
+12:17:00.261 INFO  manager.ListenerWD - Before find element: By.cssSelector: h3
+12:17:00.293 INFO  manager.ListenerWD - element found success: By.cssSelector: h3
+12:17:00.313 INFO  manager.ListenerWD - get text from the element with text: 3565944686
+12:17:00.331 INFO  manager.ListenerWD - got the text successful
+12:17:00.350 INFO  manager.ListenerWD - get text from the element with text: 35659446574
+12:17:00.370 INFO  manager.ListenerWD - got the text successful
+12:17:00.388 INFO  manager.ListenerWD - get text from the element with text: 356594461013
+12:17:00.407 INFO  manager.ListenerWD - got the text successful

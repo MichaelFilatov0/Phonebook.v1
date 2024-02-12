@@ -1,7 +1,6 @@
 package tests;
 
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -9,29 +8,26 @@ import org.testng.annotations.Test;
 
 public class RemoveContactTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User().withEmail("a@2.com").withPassword("Mm@2756808"));
+            app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
         }
+        //if list<3 ===>add 3 contacts
         app.getHelperContact().provideContacts();
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void removeOneContact(){
-        app.getHelperUser().pause(2000);
-       Assert.assertTrue(app.getHelperUser().isElementPresent(By.cssSelector(".contact-page_leftdiv__yhyke")));
-       app.getHelperUser().click(By.cssSelector(".contact-page_leftdiv__yhyke"));
-       app.getHelperUser().click(By.xpath("//button[normalize-space()='Remove']"));
+        Assert.assertEquals(app.getHelperContact().removeOneContact(),1);
+        //Assert size list less by one
     }
     @Test
     public void removeAllContacts(){
-        app.getHelperUser().pause(2000);
-       do {
-           app.getHelperUser().click(By.xpath("//div[@class='contact-page_leftdiv__yhyke']//div//div[1]"));
-           app.getHelperUser().click(By.xpath("//button[normalize-space()='Remove']"));
-       }while ((app.getHelperUser().isElementPresent(By.xpath("//h1[normalize-space()='No Contacts here!']"))!=true));
+        app.getHelperContact().removeAllContacts();
+        Assert.assertEquals(app.getHelperContact().getMessage(), "No Contacts here!");
+        //"No contacts Here
 
     }
 }

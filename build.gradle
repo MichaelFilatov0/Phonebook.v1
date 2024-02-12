@@ -11,9 +11,11 @@ repositories {
 
 dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
-    implementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    implementation group: 'org.testng', name: 'testng', version: '8.3.0'
 
     implementation 'ch.qos.logback:logback-classic:1.2.11'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.testng:testng:7.1.0'
 
 
     compileOnly 'org.projectlombok:lombok:1.18.28'
@@ -26,4 +28,47 @@ dependencies {
 
 test {
     useTestNG()
+}
+
+task qa (type:Test){
+    useTestNG(){
+
+        def suite = System.getProperty('suite', '')
+
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite.equals('login')) {
+            suites 'src/test/resources/login.xml'
+        } else {
+            suites 'src/test/resources/testng.xml'
+        }
+
+    }
+
+    if(project.hasProperty('browser')){
+        systemProperty 'browser',
+
+                "${browser}"
+
+    }
+
+
+    task scoup(type: Test){
+        useTestNG(){
+            suites 'src/test/resources/scoup.xml'
+        }
+    }
+
+
+    task team(type: Test){
+        useTestNG(){
+            def groups = System.getProperty('groups')
+            if (groups != null) {
+                includeGroups groups
+            }
+            suites 'src/test/resources/base.xml'
+        }
+    }
+
+
 }

@@ -1,46 +1,47 @@
 package tests;
 
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
 
 public class AddNewContactTests extends TestBase {
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User().withEmail("a@2.com").withPassword("Mm@2756808"));
+            app.getHelperUser().login(new User().withEmail("mara@gmail.com").withPassword("Mmar123456$"));
         }
 
     }
 
-    @Test
-    public void addContactSuccessAllFields() {
-
-
-            int i = (int) (System.currentTimeMillis() / 1000 % 3600);
-            Contact contact = Contact.builder()
-                    .name("Tony" + i)
-                    .lastName("Stark")
-                    .address("NY")
-                    .phone("3565946" + i)
-                    .email("stark" + i + "@gmail.com")
-                    .description("all fields")
-                    .build();
-            app.getHelperContact().openContactForm();
-            app.getHelperContact().fillContactForm(contact);
-            app.getHelperContact().getScreen("src/test/screenshots/screen-" + i + ".png");
-            //app.getHelperContact().pause(2500);
-            app.getHelperContact().saveContact();
-            Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
-            Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
+    @Test(dataProvider = "contactSuccess", dataProviderClass = DataProviderContact.class)
+    public void addContactSuccessAllFields(Contact contact) {
+       int i = (int) (System.currentTimeMillis() / 1000 % 3600);
+//        Contact contact = Contact.builder()
+//                .name("Tony"+i)
+//                .lastName("Stark")
+//                .address("NY")
+//                .phone("3565946" + i)
+//                .email("stark" + i + "@gmail.com")
+//                .description("all fields")
+//                .build();
+        logger.info("Tests run with data: --->"+contact.toString());
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().getScreen("src/test/screenshots/screen-"+i+".png");
+        //app.getHelperContact().pause(2500);
+        app.getHelperContact().saveContact();
+        Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
 
 
     }
-
-    @Test
+//firefox
+    @Test (groups = {"smoke", "regress", "retest"})
     public void addContactSuccessRequiredFields() {
         int i = (int) (System.currentTimeMillis() / 1000 % 3600);
         Contact contact = Contact.builder()
@@ -50,6 +51,7 @@ public class AddNewContactTests extends TestBase {
                 .phone("35659446" + i)
                 .email("stark" + i + "@gmail.com")
                 .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(2500);
@@ -69,6 +71,7 @@ public class AddNewContactTests extends TestBase {
                 .email("stark@gmail.com")
                 .description("empty name")
                 .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(2500);
@@ -87,6 +90,7 @@ public class AddNewContactTests extends TestBase {
                 .email("stark@gmail.com")
                 .description("empty address")
                 .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(2500);
@@ -106,6 +110,7 @@ public class AddNewContactTests extends TestBase {
                 .email("stark@gmail.com")
                 .description("empty lastname")
                 .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(2500);
@@ -115,16 +120,17 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addNewContactWrongPhone(){
-        Contact contact = Contact.builder()
-                .name("Tony")
-                .lastName("Stark")
-                .address("NY")
-                .phone("")
-                .email("stark@gmail.com")
-                .description("empty phone")
-                .build();
+    @Test(dataProvider = "contactWrongPhone", dataProviderClass = DataProviderContact.class)
+    public void addNewContactWrongPhone(Contact contact){
+//        Contact contact = Contact.builder()
+//                .name("Tony")
+//                .lastName("Stark")
+//                .address("NY")
+//                .phone("")
+//                .email("stark@gmail.com")
+//                .description("empty phone")
+//                .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(2500);
@@ -145,6 +151,7 @@ public class AddNewContactTests extends TestBase {
                 .email("starkgmail.com")
                 .description("wrong email")
                 .build();
+        logger.info("Tests run with data: --->"+contact.toString());
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
         //app.getHelperContact().pause(1500);

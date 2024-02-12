@@ -2,8 +2,7 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
@@ -17,6 +16,7 @@ public class HelperUser extends HelperBase {
 //        loginTab.click();
 
         click(By.cssSelector("a[href='/login']"));
+        logger.info("Open form by click button with locator By.cssSelector(\"a[href='/login']");
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
@@ -25,6 +25,7 @@ public class HelperUser extends HelperBase {
 //        emailInput.clear();
 //        emailInput.sendKeys(email);
         type(By.name("email"), email);
+        logger.info("type in input with locator By.name(\"email\") ");
 
 
 //        WebElement passwordInput = wd.findElement(By.xpath("//input[last()]"));
@@ -32,6 +33,8 @@ public class HelperUser extends HelperBase {
 //        passwordInput.clear();
 //        passwordInput.sendKeys(password);
         type(By.xpath("//input[last()]"), password);
+       // type(By.xpath("//input[la]"), password);
+
     }
 
     public void fillLoginRegistrationForm(User user) {
@@ -68,12 +71,7 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//button[text()='Registration']"));
     }
 
-    public boolean isNoContactsHereDisplayed() {
-        WebDriverWait wait = new WebDriverWait(wd, 5);
-        boolean res = wait.until(ExpectedConditions.textToBePresentInElement
-                (wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")), "No Contacts here!"));
-        return res;
-    }
+
 
     public void login(User user) {
         openLoginRegistrationForm();
